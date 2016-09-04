@@ -1,6 +1,6 @@
 body {
    background-color: #bebebe;
-   font: 400 1em/1.38  Montserrat, sans-serif;
+   font: 400 1.2em/1.38 sans-serif;
    color: #fff;
 }
 
@@ -119,4 +119,8 @@ input[type='text']:-ms-input-placeholder {
 
 .windspeed {
    font-size: 1em;
+}
+
+.error {
+   color: #ff2000;
 }

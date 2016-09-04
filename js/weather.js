@@ -3,10 +3,10 @@ if ('geolocation' in navigator) {
       loadWeather(position.coords.latitude + ',' + position.coords.longitude);
    });
 } else {
-   loadWeather('London, UK', '');
+   loadWeather('timisoara', '');
 }
 $(document).ready(function() {
-   setInterval(loadWeather, 10000);
+   loadWeather();
 });
 // display weather based on geolocation data
 function loadWeather(location, woeid) {
@@ -25,13 +25,11 @@ function loadWeather(location, woeid) {
          $('.climate-bg').html(wcode);
          $('.windspeed').html(wind);
          $('.humidity').html(humidity);
-      },
-      error: function(error) {
-         $('.error').html('<p>' + error + '</p>');
       }
+      // the error property placed here caused the message to always appear after page load, with delay
    });
 }
-// duplicate function
+// duplicate function, not sure how to refactor
 function loadWeatherOnSearch(location, woeid) {
    // store data from input field
    var cityNameSearch = $('.cityNameSearch').val();
