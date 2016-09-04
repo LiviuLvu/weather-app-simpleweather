@@ -5,10 +5,48 @@ body {
 }
 
 a {
-   color: #fff;
+   display: block;
+   margin: 18px 0px;
+   text-align: left;
+   color: #323232;
 }
 a:hover{
-   color: grey;
+   color: #1ab1ed;
+}
+input[type='text'] {
+   width: 100%;
+   padding: 14px;
+   background: none;
+   border-bottom: solid #fff 1px;
+}
+
+input[type='text']:hover{
+   background: gray;
+}
+
+input[type='text']:focus
+   background: gray;
+}
+
+input[type='text']:focus::-webkit-input-placeholder { color:transparent; }
+input[type='text']:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input[type='text']:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input[type='text']:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input[type='text']::-webkit-input-placeholder {
+   color: #fff;
+}
+
+input[type='text']:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+input[type='text']::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+input[type='text']:-ms-input-placeholder {  
+   color: #fff;  
 }
 
 .climate-bg {
