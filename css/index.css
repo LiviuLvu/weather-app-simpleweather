@@ -8,15 +8,15 @@ a {
    display: block;
    margin: 18px 0px;
    text-align: left;
-   color: #323232;
+   color: #717171;
 }
 a:hover{
    color: #1ab1ed;
 }
 input[type='text'] {
    width: 100%;
-   padding: 14px;
-   background: none;
+   padding: 18px 12px;
+   background: #1ab1ed;
    border-bottom: solid #fff 1px;
 }
 
@@ -50,7 +50,7 @@ input[type='text']:-ms-input-placeholder {
 }
 
 .climate-bg {
-   background-color: rgb(255, 255, 255);
+   background-color: #d6d6d6;
 }
 
 .weathericon {
@@ -87,6 +87,7 @@ input[type='text']:-ms-input-placeholder {
 }
 
 .temperature {
+   margin-bottom: -16px;
    font-size: 4.25em;
    font-weight: 700;
 }
@@ -96,8 +97,8 @@ input[type='text']:-ms-input-placeholder {
    align-items: center;
    justify-content: center;
    position: relative;
-   margin-bottom: 10px;
-   background-color: #1ab1ed;
+   margin-bottom: 34px;
+   background-color: #c6c6c6;
 }
 
 .humidity {

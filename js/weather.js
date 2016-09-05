@@ -29,16 +29,18 @@ function loadWeather(location, woeid) {
       // the error property placed here caused the message to always appear after page load, with delay
    });
 }
-// duplicate function, not sure how to refactor
 function loadWeatherOnSearch(location, woeid) {
    // store data from input field
    var cityNameSearch = $('.cityNameSearch').val();
-   console.log(cityNameSearch);
+   // if (cityNameSearch) {
+   //    location = cityNameSearch;
+   // }   
    $.simpleWeather({
       location: cityNameSearch,
       woeid: woeid,
       unit: 'c',
       success: function(weather) {
+         $('.error').html('<p></p>');
          city = weather.city;
          temp = weather.temp + '&deg;';
          wcode = '<img class="weathericon" src="images/weathericons/' + weather.code + '.svg">';
