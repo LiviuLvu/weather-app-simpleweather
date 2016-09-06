@@ -14,7 +14,7 @@ Optimized svg images:
 * Reduced SVG size using SVGO from node.js command line.  
 * Removed SVG white space using Illustrator  
 Modified layout to be mobile friendly  
-Added:
+Added:  
 * Search field for location  
 * Placeholder data until the real data is loaded (loading lasts a few miliseconds if geodata is allowed).
 * Error message when user input does not match any location
