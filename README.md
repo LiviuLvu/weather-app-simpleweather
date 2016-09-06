@@ -4,7 +4,7 @@ Made this app to learn more about async calls and API's.
 
 [Preview app here] (https://liviulvu.github.io/weather-app-simpleweather/)
   
-![image](https://github.com/LiviuLvu/weather-app-simpleweather/blob/gh-pages/weather-app-simpleweather.jpg)
+![image](https://github.com/LiviuLvu/weather-app-simpleweather/blob/gh-pages/weather-app-simpleweather.png)
 
 This project was made following a video tutorial from Upamanyu Das.  
 [Video link: Building a Weather App using Javascript] (https://www.youtube.com/watch?v=lpLUx-0t7aE)  
