@@ -3,7 +3,8 @@ if ('geolocation' in navigator) {
       loadWeather(position.coords.latitude + ',' + position.coords.longitude);
    });
 } else {
-   loadWeather('timisoara', '');
+   // default to Timisoara location if no geodata is available
+   loadWeather(45.753935299999995 + ',' + 21.223871700000004);
 }
 $(document).ready(function() {
    loadWeather();
