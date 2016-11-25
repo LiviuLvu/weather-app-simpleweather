@@ -286,10 +286,10 @@ textarea {
 /**
  * Remove the default button background color that browsers set
  */
-
+/*
 button {
     background: transparent;
-}
+}*/
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in

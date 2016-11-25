@@ -1,74 +1,36 @@
 body {
-   background-color: #bebebe;
+   /*background-color: #bebebe;*/
+   background-color: #fff;
    font: 400 1.2em/1.38 sans-serif;
-   color: #fff;
+   /*color: #fff;*/
 }
 
 a {
    display: block;
    margin: 18px 0px;
-   text-align: left;
-   color: #717171;
+   text-align: center;
+   color: #1ab1ed;
 }
 
 a:hover {
-   color: #1ab1ed;
+   color: #717171;
 }
 
 input[type='text'] {
    width: 100%;
-   padding: 18px 12px;
-   background: #1ab1ed;
-   border-bottom: solid #fff 1px;
+   border-bottom: solid #000 1px;
+   text-align: center;
 }
 
-input[type='text']:hover {
-   background: gray;
-}
-
-input[type='text']:focus background: gray;
-
-}
-input[type='text']:focus::-webkit-input-placeholder {
-   color: transparent;
-}
-input[type='text']:focus:-moz-placeholder {
-   color: transparent;
-}
-/* FF 4-18 */
-input[type='text']:focus::-moz-placeholder {
-   color: transparent;
-}
-/* FF 19+ */
-input[type='text']:focus:-ms-input-placeholder {
-   color: transparent;
-}
-/* IE 10+ */
-input[type='text']::-webkit-input-placeholder {
-   color: #fff;
-}
-input[type='text']:-moz-placeholder {
-   /* Firefox 18- */
-   
-   color: #fff;
-}
-input[type='text']::-moz-placeholder {
-   /* Firefox 19+ */
-   
-   color: #fff;
-}
-input[type='text']:-ms-input-placeholder {
-   color: #fff;
-}
 .climate-bg {
    display: flex;
    align-items: center;
-   height: 200px;
-   background-color: #d6d6d6;
+   height: 80px;
+   background-color: #001836;
 }
 .weathericon {
    margin: auto;
-   width: 150px;
+   width: 60px;
 }
 .container {
    text-align: center;

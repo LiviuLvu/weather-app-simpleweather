@@ -65,7 +65,7 @@
             weather.sunrise = result.astronomy.sunrise;
             weather.sunset = result.astronomy.sunset;
             weather.description = result.item.description;
-            weather.city = result.location.city;
+            weather.city = result.location.city; 
             weather.country = result.location.country;
             weather.region = result.location.region;
             weather.updated = result.item.pubDate;
@@ -112,7 +112,7 @@
 
             options.success(weather);
           } else {
-            options.error('There was a problem retrieving the latest weather information.');
+            options.error('Weather data not found.');
           }
         }
       );

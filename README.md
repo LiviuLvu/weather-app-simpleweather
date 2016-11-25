@@ -4,7 +4,6 @@ Weather data is provided by yahoo weather.
 
 [Preview app here] (https://liviulvu.github.io/weather-app-simpleweather/)
   
-![image](https://github.com/LiviuLvu/weather-app-simpleweather/blob/gh-pages/weather-app.png)
 
 This project was inspired by a video tutorial from Upamanyu Das.  
 [Video link: Building a Weather App using Javascript] (https://www.youtube.com/watch?v=lpLUx-0t7aE)  
@@ -16,9 +15,6 @@ Optimized svg images:
 Modified layout to be mobile friendly  
 Added:  
 * Search field for location  
-* Placeholder data until the real data is loaded (loading lasts a few miliseconds if geodata is allowed).
-* Error message when user input does not match any location
-
-To do:    
-* Show location current time    
-* Switch from Celsius to Farenheit
+* Switch between Celsius / Fahrenheit  
+* Placeholder data until the real data is loaded (prevents layout wild oscillation).  
+* Error message when user input does not match any location  
